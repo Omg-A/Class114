@@ -1,0 +1,23 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn-success :hover{
+    background-color: red;
+}
+
+canvas{
+    animation-name:red-fade;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes red-fade{
+    10%{box-shadow: 1px 1px 38px red;}
+    50%{box-shadow: 1px 1px 38px yellow;}
+    100%{box-shadow: 1px 1px 38px red;}
+}
+
+.btn-success{
+    font-size: 20px;
+}
